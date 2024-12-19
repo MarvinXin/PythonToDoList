@@ -1,0 +1,22 @@
+
+add_task
+Takes input from user and appends it to the end of the list while printing that the 
+item has been added
+
+
+view_task
+Checks to see if the length of the list is equal to 0, if not continue else print list is empty
+Print Header
+Go into the tasks list and iterate for item in the list
+x and task are temp variables that will enumerate the different items on the list starting at 1
+    example:
+    first iteration
+        x = 1 (Because we set the first value to be 1)
+        task = (will the be value of the item)
+Printing it together will give:
+    1. Value of the list
+
+delete_task
+displays tasks before deleting 
+if tasks is true then try to take user input for which task they want to delete_task
+
