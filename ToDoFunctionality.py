@@ -25,6 +25,7 @@ def delete_task(tasks):
     if tasks:
         try:
             task_num = int(input("Enter the task number to delete: "))
+            #Checking if the value is between 1 and length of list tasks
             if 1 <= task_num <= len(tasks):
                 deleted_task = tasks.pop(task_num - 1)
                 print(f'Task "{deleted_task}" deleted.')
